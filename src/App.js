@@ -4,10 +4,7 @@ import HomePage from './components/HomePage/HomePage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       Weather
-      </header>
+    <div className="App">    
       <HomePage></HomePage>
     </div>
   );

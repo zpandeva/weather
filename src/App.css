@@ -13,12 +13,21 @@
   }
 }
 
-.App-header {
+.app-header {
   background-color: #282c34;
-  display: flex;
-  flex-direction: column;
-  font-size: calc(10px + 2vmin);
   color: white;
+  height: 62px;
+  align-items: center;
+ 
+  .search-bar{
+    margin: 0 auto;
+    display: flex;  
+    align-items: flex-end;
+    justify-content: space-between;
+    max-width: 600px;
+    font-size: 26px;
+    padding-top: 10px;
+  }
 }
 
 .App-link {
