@@ -1,6 +1,5 @@
 import cities from '../../data/city.list.json';
 import { useState } from "react";
-import ReactSearchBox from "react-search-box";
 
 export default function LocationSearch({onResult}){
   
@@ -30,7 +29,7 @@ export default function LocationSearch({onResult}){
       })
       if(JSON.stringify(result) === '{}'){
          result.error='No result found';
-         result.location=searchInput
+         result.location = searchInput;
 
       }
       onResult(result);
@@ -48,7 +47,6 @@ export default function LocationSearch({onResult}){
      </div>
      
   </div>)
-  //<ReactSearchBox leftIcon={<>🔍</>}></ReactSearchBox>
 }
 
 
