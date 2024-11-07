@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Node version
+
+nvm use v20.18.0
+
 ## Required environment variables 
 
 In the project directory you should create .env.local file and should add environment variables in it:
@@ -11,6 +15,7 @@ REACT_APP_API_URL='https://api.openweathermap.org/data/2.5/weather'
 REACT_APP_API_KEY=<api_key>
 REACT_APP_ICON_URL='https://openweathermap.org/img/wn/'
 ```
+Use zpandevа/zoyca.pandeva@gmail.com/KrastawicaWeather3!
 
 To generate <api_key> you should create an account in https://openweathermap.org/ and generate <api_key>
 
